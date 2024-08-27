@@ -137,10 +137,12 @@ h3 {
 .producto {
     background-color: var(--alternativoPrimario);
     padding: 1rem;
+    border-radius: 2rem;
 }
 
 .producto__imagen {
     width: 100%;
+    border-radius: 1rem;
 }
 
 .producto__nombre {
@@ -167,6 +169,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 1 / 3;
+    border-radius: 2rem;
 }
 
 .grafico--camisas {
