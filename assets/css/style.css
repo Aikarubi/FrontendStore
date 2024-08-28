@@ -2,6 +2,7 @@
     --primario: #fff8ec;
     --primarioOscuro: #d5cabd;
     --alternativoPrimario: #c3ad90;
+    --alternativoOpacidad: #c3ad9050;
     --secundario: #bd871f;
     --secundarioOscuro: #aa771a;
     --blanco: #fff;
@@ -186,5 +187,36 @@ h3 {
     .grafico--node {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
+    }
+}
+
+/* Nosotros */
+
+.nosotros {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    column-gap: 2rem;
+    
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.nosotros__contenido p {
+    color: var(--negro) !important;
+}
+
+.nosotros__imagen {
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+@media (min-width: 768px) { 
+    .nosotros__imagen {
+        grid-column: 2 / 3; 
     }
 }
