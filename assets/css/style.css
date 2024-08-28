@@ -220,3 +220,41 @@ h3 {
         grid-column: 2 / 3; 
     }
 }
+
+/*Bloques*/
+
+.comprar {
+    background-color: var(--primarioOscuro);
+    border-radius: 2rem;
+}
+
+.comprar h2 {
+    color: #534807;
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) { 
+    .bloques {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque__titulo {
+    margin: 0;
+    color: #534807;
+}
+
+.bloque__imagen {
+    width: 100%;
+}
