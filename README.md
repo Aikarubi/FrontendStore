@@ -11,7 +11,7 @@ Aunque el proyecto está basado en un curso de Udemy, se han hecho los siguiente
 
 ## Vista Previa 🌐
 
-![Vista previa del proyecto](/assets/img/screenshot/view.png)
+![Vista previa del proyecto](/assets/img/screenshot.png)
 
 ## Enlace al Sitio Web
 
